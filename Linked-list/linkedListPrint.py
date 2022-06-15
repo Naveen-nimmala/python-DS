@@ -57,6 +57,5 @@ my_linked_list = LinkedList(1)
 my_linked_list.append_node(2)
 
 print(my_linked_list.pop_node())
-print(my_linked_list.pop_node())
-print(my_linked_list.pop_node())
+
 
