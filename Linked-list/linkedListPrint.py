@@ -1,6 +1,4 @@
-
-from shutil import which
-
+#!/usr/bin/env python3
 
 class Node:
     def __init__(self, value):
@@ -55,6 +53,7 @@ class LinkedList:
 
 my_linked_list = LinkedList(1)
 my_linked_list.append_node(2)
+my_linked_list.append_node(3)
 
 print(my_linked_list.pop_node())
 
